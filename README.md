@@ -1,5 +1,7 @@
 # Mathias’s dotfiles
 
+[![Join the chat at https://gitter.im/dirkkelly/dotfiles](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dirkkelly/dotfiles?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
 
 ## Installation
