@@ -1,0 +1,134 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+''	.vim/init/bdd.vim	/^nnoremap <silent> '' :call BddFindFunction()<CR>$/;"	m
+<C-A>	.vim/init/keybindings.vim	/^cmap <C-A> <C-B>$/;"	m
+<C-e>	.vim/init/keybindings.vim	/^nnoremap <C-e>  3<C-e>$/;"	m
+<C-h>	.vim/init/keybindings.vim	/^nmap <C-h>      <C-w>h$/;"	m
+<C-j>	.vim/init/keybindings.vim	/^nmap <C-j>      <C-w>j$/;"	m
+<C-k>	.vim/init/keybindings.vim	/^nmap <C-k>      <C-w>k$/;"	m
+<C-l>	.vim/init/keybindings.vim	/^nmap <C-l>      <C-w>l$/;"	m
+<C-p>	.vim/init/keybindings.vim	/^nnoremap <silent> <C-p> :CtrlPMRU<cr>$/;"	m
+<C-y>	.vim/init/keybindings.vim	/^nnoremap <C-y>  3<C-y>$/;"	m
+<D-/>	.vim/init/keybindings.vim	/^imap <D-\/>      <Esc><plug>NERDCommenterToggle i$/;"	m
+<D-/>	.vim/init/keybindings.vim	/^map <D-\/>       <plug>NERDCommenterToggle$/;"	m
+<D-<>	.vim/init/keybindings.vim	/^map <D-<>       :tabedit ~\/.vimrc<CR>$/;"	m
+<D-C>	.vim/init/keybindings.vim	/^map <silent> <D-C> :let @* = expand("%")<CR>:echo "Copied: ".expand("%")<CR>$/;"	m
+<D-CR>	.vim/init/keybindings.vim	/^imap <D-CR>     <Esc>o$/;"	m
+<D-F>	.vim/init/keybindings.vim	/^map <D-F> :Ag<Space>$/;"	m
+<D-M>	.vim/init/keybindings.vim	/^nnoremap <silent> <D-M> :CtrlPBufTag<CR>$/;"	m
+<D-N>	.vim/init/keybindings.vim	/^map <D-N> :CtrlPCurWD<CR>$/;"	m
+<D-P>	.vim/init/keybindings.vim	/^nnoremap <silent> <D-P> :ClearCtrlPCache<cr>$/;"	m
+<D-Z>	.vim/init/keybindings.vim	/^map <D-Z>       :later 1<CR>$/;"	m
+<D-e>	.vim/init/keybindings.vim	/^map <D-e> :CtrlPBuffer<CR>$/;"	m
+<D-z>	.vim/init/keybindings.vim	/^map <D-z>       :earlier 1<CR>$/;"	m
+<F10>	.vim/init/keybindings.vim	/^imap <F10> <ESC><F10>$/;"	m
+<F10>	.vim/init/keybindings.vim	/^map <F10> :write<CR>:RunTestAgain<CR>$/;"	m
+<F11>	.vim/init/keybindings.vim	/^imap <F11> <ESC><F11>$/;"	m
+<F11>	.vim/init/keybindings.vim	/^map <F11> :write<CR>:RunTestLine<CR>$/;"	m
+<F12>	.vim/init/keybindings.vim	/^imap <F12> <ESC><F12>$/;"	m
+<F12>	.vim/init/keybindings.vim	/^map <F12> :write<CR>:RunTest<CR>$/;"	m
+<F19>WriteAll	.vim/init/keybindings.vim	/^map <silent> <F19>WriteAll :silent! wall<CR>$/;"	m
+<F1>	.vim/init/keybindings.vim	/^imap <F1>           <Nop>$/;"	m
+<F1>	.vim/init/keybindings.vim	/^map <F1>            <Nop>$/;"	m
+<F7>	.vim/init/keybindings.vim	/^map <silent> <F7> gg=G`` :delmarks z<CR>:echo "Reformatted."<CR>$/;"	m
+<F9>	.vim/init/keybindings.vim	/^imap <F9> <ESC><F9>$/;"	m
+<F9>	.vim/init/keybindings.vim	/^map <F9> :write<CR>:RunTestPrevious<CR>$/;"	m
+<Leader><Leader>	.vim/init/keybindings.vim	/^map <Leader><Leader> :!$/;"	m
+<M-D-Down>	.vim/init/keybindings.vim	/^map <M-D-Down>  :cn<CR>$/;"	m
+<M-D-Left>	.vim/init/keybindings.vim	/^map <M-D-Left>  :bp<CR>$/;"	m
+<M-D-Right>	.vim/init/keybindings.vim	/^map <M-D-Right> :bn<CR>$/;"	m
+<M-D-Up>	.vim/init/keybindings.vim	/^map <M-D-Up>    :cp<CR>$/;"	m
+<MiddleMouse>	.vim/init/keybindings.vim	/^imap <MiddleMouse>  <Nop>$/;"	m
+<MiddleMouse>	.vim/init/keybindings.vim	/^map <MiddleMouse>   <Nop>$/;"	m
+<Plug>LocalMakelet	.vim/init/local_make_let.vim	/^nmap <Plug>LocalMakelet yiwIlet(:<Esc>A) { double(:<Esc>pa) }<Esc>hh$/;"	m
+<Space>	.vim/init/keybindings.vim	/^nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""$/;"	m
+<leader>/	.vim/init/keybindings.vim	/^map <leader>\/   <plug>NERDCommenterToggle$/;"	m
+<leader><C-N>	.vim/init/keybindings.vim	/^map <leader><C-N> :CtrlPCurWD<CR>$/;"	m
+<leader>=	.vim/init/keybindings.vim	/^map <leader>=   ^W=$/;"	m
+<leader>=	.vim/init/keybindings.vim	/^nmap <leader>=  gg=G``$/;"	m
+<leader>C	.vim/init/keybindings.vim	/^map <leader>C :let @* = expand("%").":".line(".")<CR>:echo "Copied: ".expand("%").":".line(".")<CR>$/;"	m
+<leader>F	.vim/init/keybindings.vim	/^nnoremap <silent> <leader>F :CtrlPClearAllCaches<CR>:CtrlPCurWD<CR>$/;"	m
+<leader>T	.vim/init/keybindings.vim	/^map <leader>T :wa<CR>:RunTest<CR>$/;"	m
+<leader>a	.vim/init/keybindings.vim	/^map <leader>a :call AckGrep()<CR>$/;"	m
+<leader>a	.vim/init/keybindings.vim	/^vmap <leader>a :call AckVisual()<CR>$/;"	m
+<leader>bb	.vim/init/keybindings.vim	/^nnoremap <silent> <leader>bb :CtrlPBuffer<cr>$/;"	m
+<leader>g	.vim/init/keybindings.vim	/^map <leader>g   :Gblame<CR>$/;"	m
+<leader>j	.vim/init/keybindings.vim	/^map <leader>j   ^Wj$/;"	m
+<leader>jC	.vim/init/keybindings.vim	/^map <leader>jC :CtrlP config<CR>$/;"	m
+<leader>jF	.vim/init/keybindings.vim	/^map <leader>jF :CtrlP factories<CR>$/;"	m
+<leader>jT	.vim/init/keybindings.vim	/^map <leader>jT :CtrlP test<CR>$/;"	m
+<leader>jV	.vim/init/keybindings.vim	/^map <leader>jV :CtrlP vendor<CR>$/;"	m
+<leader>jc	.vim/init/keybindings.vim	/^map <leader>jc :CtrlP app\/controllers<CR>$/;"	m
+<leader>jd	.vim/init/keybindings.vim	/^map <leader>jd :CtrlP db<CR>$/;"	m
+<leader>jf	.vim/init/keybindings.vim	/^map <leader>jf :CtrlP fast_spec<CR>$/;"	m
+<leader>jh	.vim/init/keybindings.vim	/^map <leader>jh :CtrlP app\/helpers<CR>$/;"	m
+<leader>jl	.vim/init/keybindings.vim	/^map <leader>jl :CtrlP lib<CR>$/;"	m
+<leader>jm	.vim/init/keybindings.vim	/^map <leader>jm :CtrlP app\/models<CR>$/;"	m
+<leader>jp	.vim/init/keybindings.vim	/^map <leader>jp :CtrlP public<CR>$/;"	m
+<leader>js	.vim/init/keybindings.vim	/^map <leader>js :CtrlP spec<CR>$/;"	m
+<leader>jv	.vim/init/keybindings.vim	/^map <leader>jv :CtrlP app\/views<CR>$/;"	m
+<leader>k	.vim/init/keybindings.vim	/^map <leader>k   ^Wk$/;"	m
+<leader>l	.vim/init/keybindings.vim	/^nmap <leader>l :TagbarToggle<CR>$/;"	m
+<leader>ld	.vim/init/keybindings.vim	/^nmap <leader>ld <Plug>LocalMakelet$/;"	m
+<leader>n	.vim/init/keybindings.vim	/^map <leader>n :CtrlPCurWD<CR>$/;"	m
+<leader>qc	.vim/init/keybindings.vim	/^map <leader>qc  :cclose<CR>$/;"	m
+<leader>qo	.vim/init/keybindings.vim	/^map <leader>qo  :copen<CR>$/;"	m
+<leader>rT	.vim/init/keybindings.vim	/^map <leader>rT :!rdoc -f tags -o tags * `rvm gemhome` --exclude=.git --exclude=log$/;"	m
+<leader>rt	.vim/init/keybindings.vim	/^map <leader>rt :!\/usr\/local\/bin\/ctags -R --exclude=.git --exclude=log * `rvm gemhome`\/*<CR>$/;"	m
+<leader>rv	.vim/init/keybindings.vim	/^map <leader>rv  :source ~\/.vimrc<CR>$/;"	m
+<leader>s	.vim/init/keybindings.vim	/^nmap <leader>s  :%s\/$/;"	m
+<leader>s	.vim/init/keybindings.vim	/^vmap <leader>s  :s\/$/;"	m
+<leader>t	.vim/init/keybindings.vim	/^map <leader>t :wa<CR>:RunTestLine<CR>$/;"	m
+<leader>tt	.vim/init/keybindings.vim	/^map <leader>tt :wa<CR>:RunTestAgain<CR>$/;"	m
+<leader>u	.vim/init/keybindings.vim	/^map <leader>u :GundoToggle<CR>$/;"	m
+<leader>v	.vim/init/keybindings.vim	/^map <leader>v   :vsp<CR>$/;"	m
+<leader>w	.vim/init/keybindings.vim	/^map <leader>w   ^Ww$/;"	m
+<s-tab>	.vim/init/keybindings.vim	/^vmap <s-tab> <gv$/;"	m
+<tab>	.vim/init/keybindings.vim	/^vmap <tab> >gv$/;"	m
+BddFindFunction	.vim/init/bdd.vim	/^function! BddFindFunction()$/;"	f
+CC	.vim/init/commands.vim	/^command CC CoffeeCompile vert$/;"	c
+CSharpFoldText	.vim/syntax/csharp.vim	/^function! CSharpFoldText(add)$/;"	f
+CucumberFindUnusedSteps	.vim/init/cucumber.vim	/^command! CucumberFindUnusedSteps :call CucumberFindUnusedSteps()$/;"	c
+CucumberFindUnusedSteps	.vim/init/cucumber.vim	/^function! CucumberFindUnusedSteps()$/;"	f
+HiLink	.vim/syntax/smarty.vim	/^    command -nargs=+ HiLink hi def link <args>$/;"	c
+HiLink	.vim/syntax/smarty.vim	/^    command -nargs=+ HiLink hi link <args>$/;"	c
+JSHint	.vim/init/jshint.vim	/^command! -bang -nargs=* -complete=file JSHint call s:JSHint('grep<bang>',<q-args>)$/;"	c
+JSHint	.vim/init/jshint.vim	/^function! s:JSHint(cmd, args)$/;"	f
+MyTabLine	.vim/init/tabline.vim	/^    function! MyTabLine()$/;"	f
+NERDSpaceDelims	.vim/init/nerd_commenter.vim	/^let NERDSpaceDelims = 1$/;"	v
+NERDTreeShowHidden	.vim/init/nerdtree.vim	/^let NERDTreeShowHidden=1$/;"	v
+RunFocusedTest	.vim/init/run_tests.vim	/^command! RunFocusedTest :call RunFocusedTest()$/;"	c
+RunFocusedTest	.vim/init/run_tests.vim	/^function! RunFocusedTest()$/;"	f
+RunTestTool	.vim/init/run_tests.vim	/^function! RunTestTool(tool_cmd)$/;"	f
+RunTests	.vim/init/run_tests.vim	/^command! RunTests :call RunTests()$/;"	c
+RunTests	.vim/init/run_tests.vim	/^function! RunTests()$/;"	f
+StripTrailingWhitespace	.vim/init/language.vim	/^function! StripTrailingWhitespace()$/;"	f
+Y	.vim/init/keybindings.vim	/^map Y           y\$$/;"	m
+\	.vim/init/keybindings.vim	/^map \\           :NERDTreeToggle<CR>$/;"	m
+\|	.vim/init/keybindings.vim	/^map \\|          :NERDTreeFind<CR>$/;"	m
+b:current_syntax	.vim/syntax/csharp.vim	/^let b:current_syntax="csharp"$/;"	v
+b:current_syntax	.vim/syntax/smarty.vim	/^let b:current_syntax = "smarty"$/;"	v
+did_csharp_syntax_inits	.vim/syntax/csharp.vim	/^    let did_csharp_syntax_inits=1$/;"	v
+did_smarty_syn_inits	.vim/syntax/smarty.vim	/^    let did_smarty_syn_inits = 1$/;"	v
+doIt	bootstrap.sh	/^function doIt() {$/;"	f
+du	.vim/init/keybindings.vim	/^nmap du :diffupdate<CR>$/;"	m
+g:blockle_mapping	.vim/init/vim-blockle.vim	/^let g:blockle_mapping = '<leader>B'$/;"	v
+g:ctrlp_map	.vim/init/ctrlp.vim	/^let g:ctrlp_map = '<leader>f'$/;"	v
+g:gundo_close_on_revert	.vim/init/gundo.vim	/^let g:gundo_close_on_revert = 1$/;"	v
+g:jshintprg	.vim/init/jshint.vim	/^  let g:jshintprg="jshint"$/;"	v
+g:rubycomplete_buffer_loading	.vim/init/omnicompletion.vim	/^let g:rubycomplete_buffer_loading = 1$/;"	v
+g:rubycomplete_classes_in_global	.vim/init/omnicompletion.vim	/^let g:rubycomplete_classes_in_global = 1$/;"	v
+g:rubycomplete_rails	.vim/init/omnicompletion.vim	/^let g:rubycomplete_rails = 1$/;"	v
+g:sql_type_default	.vim/init/options.vim	/^let g:sql_type_default="postgresql"$/;"	v
+g:syntastic_enable_signs	.vim/init/syntastic.vim	/^let g:syntastic_enable_signs=1$/;"	v
+g:yankring_history_file	.vim/init/yankring.vim	/^let g:yankring_history_file = '.vim_yankring_history'$/;"	v
+g:yankring_replace_n_nkey	.vim/init/yankring.vim	/^let g:yankring_replace_n_nkey = '<C-S-Tab>'$/;"	v
+g:yankring_replace_n_pkey	.vim/init/yankring.vim	/^let g:yankring_replace_n_pkey = '<C-Tab>'$/;"	v
+main_syntax	.vim/syntax/smarty.vim	/^  let main_syntax = 'smarty'$/;"	v
+mapleader	.vim/init/keybindings.vim	/^let mapleader = ","$/;"	v
+maplocalleader	.vim/init/keybindings.vim	/^let maplocalleader = ";"$/;"	v
+ruby_operators	.vim/init/vim-ruby-config.vim	/^let ruby_operators=1$/;"	v
