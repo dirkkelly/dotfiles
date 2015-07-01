@@ -163,3 +163,4 @@ alias foremandev="be foreman start -f Procfile.dev"
 alias cddotfiles="cd ~/src/`whoami`/dotfiles/"
 
 source ~/.aliases_interexchange;
+alias gap="git add -p"
