@@ -148,6 +148,8 @@ alias cdcampminder="cd ~/src/interexchange/campminder"
 alias be="bundle exec"
 alias bespec="bundle exec rspec --order=rand --format=documentation --color --profile --fail-fast"
 
+alias ne="nvm exec"
+
 alias resource=". ~/.bash_profile"
 
 alias gitwasme="NAME=git config user.name; EMAIL=git config user.email; git commit --amend --author \"$NAME <$EMAIL>\""
