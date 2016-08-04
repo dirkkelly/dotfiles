@@ -51,5 +51,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # https://github.com/zimbatm/direnv
 eval "$(direnv hook bash)"
 
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+export NVM_DIR="$HOME/.nvm"
+export NODE_VERSION_PREFIX=v
+export NODE_VERSIONS="$HOME/.nvm/versions/node"
+. "$(brew --prefix nvm)/nvm.sh"

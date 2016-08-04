@@ -1,3 +1,4 @@
+set exrc
 set guioptions+=e
 
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux
