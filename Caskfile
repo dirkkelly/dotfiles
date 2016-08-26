@@ -5,6 +5,7 @@ cask install
 
 acorn
 caffeine
+dash
 google-chrome-canary
 iterm2
 macvim
