@@ -9,6 +9,7 @@ brew 'foremost'
 brew 'git'
 brew 'gnu-sed', args: ['default-names']
 brew 'hashpump'
+brew 'heroku'
 brew 'homebrew/dupes/grep'
 brew 'homebrew/dupes/screen'
 brew 'libxml2'
