@@ -1,7 +1,6 @@
 brew 'ag'
 brew 'bash'
 brew 'bash-completion'
-brew 'bfg'
 brew 'coreutils'
 brew 'coreutils'
 brew 'direnv'
