@@ -7,8 +7,6 @@ cask install
 acorn
 balsamiq-mockups
 caffeine
-dash
-google-chrome-canary
 imageoptim
 iterm2
 macvim
@@ -16,7 +14,6 @@ postico
 sequel-pro
 sizeup
 slack
-sonos
 torbrowser
 transmission
 transmit
