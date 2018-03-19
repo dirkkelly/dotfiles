@@ -6,6 +6,14 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+alias cddotfiles="cd ~/src/`whoami`/dotfiles/"
+alias cddirkkelly="cd ~/src/dirkkelly/dirkkelly/"
+alias cddsafc="cd ~/src/dsafc/dsafc/"
+
+alias gap="git add -p"
+
+source ~/.aliases_interexchange;
+
 # Shortcuts
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
@@ -162,7 +170,3 @@ alias dbreset="script/db/reset.sh"
 
 alias foremandev="be foreman start -f Procfile.dev"
 
-alias cddotfiles="cd ~/src/`whoami`/dotfiles/"
-
-source ~/.aliases_interexchange;
-alias gap="git add -p"
