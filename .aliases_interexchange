@@ -1,6 +1,6 @@
 alias cdapp="cd ~/src/interexchange/app/"
 alias cdauth="cd ~/src/interexchange/auth/"
-alias cdengineering="cd ~/src/interexchange/engineering.interexchange.org/"
+alias cdengineering="cd ~/src/interexchange/engineering/"
 alias cdjekyll="cd ~/src/interexchange/website-jekyll/"
 alias cdorientation="cd ~/src/interexchange/orientation/"
 alias cdpassport="cd ~/src/interexchange/passport/"
