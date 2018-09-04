@@ -170,3 +170,4 @@ alias dbreset="script/db/reset.sh"
 
 alias foremandev="be foreman start -f Procfile.dev"
 
+alias hrc="heroku run rails console"

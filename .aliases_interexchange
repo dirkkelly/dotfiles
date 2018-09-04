@@ -1,5 +1,6 @@
 alias cdapp="cd ~/src/interexchange/app/"
 alias cdpassport="cd ~/src/interexchange/passport/"
+alias cdengineering="cd ~/src/interexchange/engineering/"
 alias cdsevis="cd ~/src/interexchange/sevis/"
 alias cdsites="cd ~/src/interexchange/sites/"
 alias cdstyleguide="cd ~/src/interexchange/styleguide"
