@@ -7,12 +7,8 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 alias cddotfiles="cd ~/src/`whoami`/dotfiles/"
-alias cddirkkelly="cd ~/src/dirkkelly/dirkkelly/"
-alias cddsafc="cd ~/src/dsafc/dsafc/"
 
 alias gap="git add -p"
-
-source ~/.aliases_interexchange;
 
 # Shortcuts
 alias d="cd ~/Documents/Dropbox"
@@ -171,3 +167,5 @@ alias dbreset="script/db/reset.sh"
 alias foremandev="be foreman start -f Procfile.dev"
 
 alias hrc="heroku run rails console"
+
+source ~/.aliases_*;

@@ -58,3 +58,9 @@ export NVM_DIR="$HOME/.nvm"
 export NODE_VERSION_PREFIX=v
 export NODE_VERSIONS="$HOME/.nvm/versions/node"
 . "$(brew --prefix nvm)/nvm.sh"
+
+export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
+
+export GOPATH=$HOME/.go
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
