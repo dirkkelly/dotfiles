@@ -168,4 +168,5 @@ alias foremandev="be foreman start -f Procfile.dev"
 
 alias hrc="heroku run rails console"
 
-source ~/.aliases_*;
+source ~/.aliases_dirkkelly;
+source ~/.aliases_interexchange;

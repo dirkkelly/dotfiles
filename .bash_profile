@@ -55,12 +55,15 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 eval "$(direnv hook bash)"
 
 export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 export NODE_VERSION_PREFIX=v
 export NODE_VERSIONS="$HOME/.nvm/versions/node"
-. "$(brew --prefix nvm)/nvm.sh"
 
 export PATH="/usr/local/opt/postgresql@10/bin:$PATH"
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
 export GOPATH=$HOME/.go
 export GOROOT=/usr/local/opt/go/libexec
+export GO111MODULE=on
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
