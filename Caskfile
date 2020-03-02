@@ -3,21 +3,17 @@
 
 cask install
 
-1password
 acorn
-balsamiq-mockups
 caffeine
-imageoptim
-iterm2
+docker
+# iterm2
 macvim
+postgres
 postico
 sequel-pro
-sizeup
-slack
-torbrowser
+# sizeup
+# slack
 transmission
 transmit
-unrarx
-vagrant
 virtualbox
 vlc

@@ -14,7 +14,16 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ### Install Git and direnv
 
 ```bash
-brew install git direnv ruby-build rbenv nvm yarn go hugo
+brew install git
+
+brew tap heroku/brew && brew install heroku
+heroku plugins:install heroku-accounts
+heroku plugins:install heroku-fork
+
+heroku accounts:add personal
+heroku accounts:add interexchange
+
+heroku accounts:set personal
 ```
 
 ### Using Git and the bootstrap script
@@ -80,7 +89,6 @@ Then you need https://github.com/Homebrew/homebrew-brewdler
 
 ```
 brew tap Homebrew/brewdler
-brew tap Homebrew/dupes
 brew bundle
 ```
 
@@ -89,7 +97,7 @@ brew bundle
 You could also install native apps with [`brew cask`](https://github.com/phinze/homebrew-cask):
 
 ```bash
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 brew $(cat Caskfile|grep -v "#")
 ```
 
