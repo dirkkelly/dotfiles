@@ -1,3 +1,4 @@
+
 # DirkKelly’s dotfiles
 
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
@@ -13,7 +14,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ### Install Git and direnv
 
 ```bash
-brew install git direnv nvm
+brew install git direnv ruby-build rbenv nvm yarn go hugo
 ```
 
 ### Using Git and the bootstrap script

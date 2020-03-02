@@ -1,5 +1,7 @@
 alias cdbakecli="cd ~/.go/src/github.com/breadtubetv/bake"
-alias cdbreadtubetv="cd ~/src/breadtubetv/breadtubetv"
+alias cdbreadtubetvapi="cd ~/src/breadtubetv/api"
+alias cdbreadtubetvbake="cd ~/src/breadtubetv/bake"
+alias cdbreadtubetv="cd ~/src/breadtubetv/website"
 alias cdcodebreadio="cd ~/src/codebreadio/codebreadio"
 alias cddirkkelly="cd ~/src/dirkkelly/dirkkelly"
 alias cddsafc="cd ~/src/dsafc/dsafc/"

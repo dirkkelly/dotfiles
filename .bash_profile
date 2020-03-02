@@ -67,3 +67,4 @@ export GOPATH=$HOME/.go
 export GOROOT=/usr/local/opt/go/libexec
 export GO111MODULE=on
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
